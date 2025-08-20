@@ -1365,10 +1365,10 @@ var playh = document.getElementById("playh");
 playh.style.opacity = 0;
 playh.appendChild(pbdiv);
 var tips = document.getElementById("tips");
-var tipss = ["Eat to grow longer!", "Don't run into other players!", "When longer, hold the mouse for a speed boost!"];
-if (lang == "de") tipss = ["Esse um zu wachsen!", "Klicke f\u00fcr mehr Geschwindigkeit!", "Bewege dich nicht in andere Schlangen!"];
-else if (lang == "fr") tipss = ["Mange pour cro\u00eetre !", "Clique pour courir !", "Ne laissez pas votre t\u00eate toucher d'autres serpents !"];
-else if (lang == "pt") tipss = ["Coma para crescer!", "Clique para correr!", "N\u00e3o deixe que sua cabe\u00e7a para tocar outras cobras!"];
+var tipss = ["Port by breadbb!", "gn-math.github.io!"];
+if (lang == "de") tipss = ["Port by breadbb!", "gn-math.github.io!"];
+else if (lang == "fr") tipss = ["Port by breadbb!", "gn-math.github.io!"];
+else if (lang == "pt") tipss = ["Port by breadbb!", "gn-math.github.io!"];
 var tip_pos = -1;
 var tip_fr = 1.9;
 o.elem.onclick = function () {
