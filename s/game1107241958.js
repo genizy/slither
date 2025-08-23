@@ -8266,7 +8266,7 @@ function connect() {
         if (fbso != null) es = "(fbso!)";
         console.log("connecting to server... " + es)
     }
-    ws = new WebSocket("ws://"+window.gnmathserver+"/slither");
+    ws = new WebSocket("wss://"+window.gnmathserver+"/slither");
     ws.binaryType = "arraybuffer";
     window.ws = ws;
     ws.onmessage = function (e) {
@@ -11311,7 +11311,7 @@ function loadSos(s) {
                     var ip = cluo.sis[k].ip;
                     var ps = null;
                     try {
-                        var ps = new WebSocket("ws://"+window.gnmathserver+"/ptc");
+                        var ps = new WebSocket("wss://"+window.gnmathserver+"/ptc");
                         if (testing) console.log("ptc")
                     } catch (e) {
                         ps = null
